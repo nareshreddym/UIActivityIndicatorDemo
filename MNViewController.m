@@ -1,5 +1,5 @@
 //
-//  MNViewController.h
+//  MNViewController.m
 //  UIActivityIndiactorDemo
 //
 //  Created by Naresh Reddy M on 04/03/16.
@@ -31,12 +31,6 @@
                    {
                        [self performSelector:@selector(hideLoadingBar:) withObject:[self getSpinner] afterDelay:5.0];
                    });
-}
--(void)hideLoadingBar:(UIActivityIndicatorView *)loadingBar
-{
-    [loadingBar stopAnimating];
-    [loadingBar removeFromSuperview];
-    loadingBar = nil;
 }
 -(void)hideLoadingBar:(UIActivityIndicatorView *)loadingBar
 {
