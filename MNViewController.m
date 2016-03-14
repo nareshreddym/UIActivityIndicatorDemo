@@ -36,6 +36,5 @@
 {
     [loadingBar stopAnimating];
     [loadingBar removeFromSuperview];
-    loadingBar = nil;
 }
 @end
