@@ -1,5 +1,14 @@
+//
+//  MNViewController.h
+//  UIActivityIndiactorDemo
+//
+//  Created by Naresh Reddy M on 04/03/16.
+//  Copyright © 2016 Naresh Reddy M. All rights reserved.
+//
 
-@implementation ViewController
+
+
+@implementation MNViewController
 -(UIActivityIndicatorView *)getSpinner
 {
     static UIActivityIndicatorView *spinnerView = nil;
